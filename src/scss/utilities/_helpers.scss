@@ -1,0 +1,242 @@
+
+// helper classes
+.spaced {
+  padding-top: 3rem;
+
+  @include breakpoint(md) {
+    padding-top: 6rem;
+  }
+
+  & + section {
+    padding-top: 3rem;
+
+    @include breakpoint(md) {
+      padding-top: 6rem;
+    }
+  }
+
+  &--small-xs-bot {
+    padding-bottom: .5rem;
+  }
+
+  &--small-xs-top {
+    padding-top: .5rem;
+  }
+
+  &--small-sm-bot {
+    padding-bottom: .75rem;
+  }
+
+  &--small-sm-top {
+    padding-top: .75rem;
+  }
+
+  &--small-bot {
+    padding-bottom: 1rem;
+  }
+
+  &--small-top {
+    padding-top: 1rem;
+  }
+
+  &--bot {
+    padding-bottom: 2rem;
+  }
+
+  &--top {
+    padding-top: 2rem;
+  }
+
+  &--mid-top {
+    padding-top: 4rem;
+  }
+
+  &--mid-bot {
+    padding-bottom: 4rem;
+  }
+
+  &--large-top {
+    padding-top: 4rem;
+
+    @include breakpoint(md) {
+      padding-top: 6rem;
+    }
+  }
+
+  &--large-bot {
+    padding-bottom: 4rem;
+
+    @include breakpoint(md) {
+      padding-bottom: 6rem;
+    }
+  }
+}
+
+.margin {
+  &--top {
+    margin-top: 2rem;
+  }
+
+  &--bot {
+    margin-bottom: 2rem;
+  }
+
+  &--small-xs-bot {
+    margin-bottom: .5rem;
+  }
+
+  &--small-xs-top {
+    margin-top: .5rem;
+  }
+
+  &--small-sm-bot {
+    margin-bottom: .75rem;
+  }
+
+  &--small-sm-top {
+    margin-top: .75rem;
+  }
+
+  &--small-top {
+    margin-top: 1rem;
+  }
+
+  &--small-bot {
+    margin-bottom: 1rem;
+  }
+
+  &--mid-top {
+    margin-top: 4rem;
+  }
+
+  &--mid-bot {
+    margin-bottom: 4rem;
+  }
+
+  &--large-top {
+    margin-top: 4rem;
+
+    @include breakpoint(md) {
+      margin-top: 6rem;
+    }
+  }
+
+  &--large-bot {
+    margin-bottom: 4rem;
+
+    @include breakpoint(md) {
+      margin-bottom: 6rem;
+    }
+  }
+}
+
+.z-index {
+  position: relative;
+  z-index: $z-index-1;
+}
+
+// color helper classes. use: .bg--white-base
+.bg {
+  background-color: palette(white);
+  @each $p-key, $palette in $palettes {
+    @each $c-key, $color in $palette {
+      &--#{$p-key}-#{$c-key} {
+        background-color: $color;
+      }
+    }
+  }
+}
+
+.color {
+  color: palette(white);
+  @each $p-key, $palette in $palettes {
+    @each $c-key, $color in $palette {
+      &--#{$p-key}-#{$c-key} {
+        color: $color;
+      }
+    }
+  }
+}
+
+// regular site text, typically in paragraphs
+.text {
+  color: palette(blue, content);
+  font-family: $font-body;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+
+  @include breakpoint(md) {
+    font-size: 1.3125rem;
+    line-height: 2rem;
+  }
+
+  a {
+    &,
+    &:visited {
+      color: palette(black, text);
+    }
+  }
+
+  &--sub {
+    font-size: .875rem;
+    line-height: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+  }
+
+  &--no-wrap {
+    white-space: nowrap;
+  }
+
+  &--wrap {
+    word-break: break-all;
+  }
+
+  &--light {
+    font-weight: 300;
+  }
+
+  &--bold {
+    font-weight: bold;
+  }
+
+  &--uppercase {
+    text-transform: uppercase;
+  }
+
+  &--none {
+    text-transform: none;
+  }
+}
+
+.hidden {
+  display: none;
+
+  &--desktop {
+    @include breakpoint(md) {
+      display: none;
+    }
+  }
+
+  &--tablet {
+    @include screen-range($screen-sm, $screen-md) {
+      display: none;
+    }
+  }
+
+  &--mobile {
+    @include screen-range($screen-xxs, $screen-md - .0625 ) {
+      display: none;
+    }
+  }
+
+  &--only-mobile {
+    @include screen-range($screen-xxs, $screen-sm - .0625) {
+      display: none;
+    }
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}

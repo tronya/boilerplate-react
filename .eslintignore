@@ -1,0 +1,6 @@
+build/**
+public/**
+src/scss/**
+node_modules/**
+src/__tests__/*
+coverage/*
