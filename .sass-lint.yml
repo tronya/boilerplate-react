@@ -1,0 +1,160 @@
+files:
+  include: 'src/scss/**/*.scss'
+  ignore:
+    - './node_modules/'
+# List of gem names to load custom linters from (make sure they are already
+# installed)
+plugin_gems: []
+
+options:
+  formatter: stylish
+  merge-default-rules: false
+rules:
+  bem-depth:
+    - 2
+    - max-depth: 1
+  border-zero:
+    - 2
+    - convention: 0
+  brace-style:
+    - 1
+    - allow-single-line: true
+  clean-import-paths:
+    - 1
+    - filename-extension: false
+      leading-underscore: false
+  empty-line-between-blocks:
+    - 2
+    - ignore-single-line-rulesets: true
+  extends-before-declarations: 2
+  extends-before-mixins: 2
+  final-newline:
+    - 2
+    - include: true
+  force-attribute-nesting: 1
+  force-element-nesting: 1
+  force-pseudo-nesting: 1
+  function-name-format:
+    - 1
+    - allow-leading-underscore: true
+      convention: hyphenatedbem
+  hex-length:
+    - 1
+    - style: long
+  hex-notation:
+    - 2
+    - style: uppercase
+  id-name-format:
+    - 2
+    - convention: camelcase
+  indentation:
+    - 2
+    - size: 2
+  leading-zero:
+    - 2
+    - include: false
+  mixin-name-format:
+    - 2
+    - allow-leading-underscore: true
+      convention: hyphenatedlowercase
+  mixins-before-declarations: 1
+  nesting-depth:
+    - 1
+    - max-depth: 5
+  no-color-keywords: 0
+  no-color-literals: 0
+  no-color-hex: 2
+  no-css-comments: 0
+  no-debug: 1
+  no-duplicate-properties: 2
+  no-empty-rulesets: 2
+  no-extends: 0
+  no-ids: 2
+  no-important: 2
+  no-invalid-hex: 2
+  no-mergeable-selectors: 1
+  no-misspelled-properties:
+    - 2
+    - extra-properties: []
+  no-qualifying-elements:
+    - 1
+    - allow-element-with-attribute: true
+      allow-element-with-class: false
+      allow-element-with-id: false
+  no-trailing-whitespace: 2
+  no-trailing-zero: 1
+  no-transition-all: 2
+  no-url-protocols:
+    - 2
+    - allow-protocol-relative-urls: true
+  one-declaration-per-line: 1
+  placeholder-in-extend: 1
+  placeholder-name-format:
+    - 1
+    - convention: hyphenatedbem
+  property-sort-order:
+    - 2
+    - ignore-custom-properties: false
+      order: alphabetical
+  property-units:
+    - 2
+    - global:
+        - px
+        - ch
+        - em
+        - ex
+        - rem
+        - '%'
+        - vh
+        - vw
+        - vmin
+        - vmax
+        - deg
+        - grad
+        - rad
+        - turn
+        - ms
+        - s
+        - dpi
+        - dpcm
+        - dppx
+      per-property:
+        z-index: []
+  pseudo-element: 1
+  quotes:
+    - 1
+    - style: single
+  shorthand-values:
+    - 1
+    - allowed-shorthands:
+        - 1
+        - 2
+        - 3
+        - 4
+  single-line-per-selector: 1
+  space-after-bang:
+    - 1
+    - include: false
+  space-after-colon:
+    - 1
+    - include: true
+  space-after-comma:
+    - 1
+    - include: true
+  space-before-bang:
+    - 1
+    - include: true
+  space-before-brace:
+    - 1
+    - include: true
+  space-before-colon: 1
+  space-between-parens:
+    - 1
+    - include: false
+  trailing-semicolon: 2
+  url-quotes: 1
+  variable-name-format:
+    - 1
+    - allow-leading-underscore: true
+      convention: hyphenatedlowercase
+  zero-unit: 1
