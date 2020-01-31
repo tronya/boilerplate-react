@@ -8,4 +8,119 @@
   padding-top: 20px;
 }
 
+.page-content {
+  min-width: 1024px;
+}
 
+/*----------------------------------------------------
+  1. General
+----------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700");
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #444444;
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #444444;
+  line-height: auto;
+  font-size: 16px;
+}
+
+a {
+  color: #14589C;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus,
+a:visited {
+  color: #14589C;
+}
+
+.page__container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 40px;
+  position: relative;
+}
+
+.delimiter {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  clear: both;
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+input::placeholder {
+  color: #BDBDBD;
+}
+
+input::-webkit-input-placeholder {
+  color: #BDBDBD;
+}
+
+input::-moz-placeholder {
+  color: #BDBDBD;
+}
+
+input:-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+input:-moz-placeholder {
+  color: #BDBDBD;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
