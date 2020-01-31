@@ -7,9 +7,9 @@ require('../scss/index.css');
 
 export const AppRoot = ({ route }) => {
   return (
-    <div>
+    <>
       <Header/>
-      {renderRoutes(route.routes)}
-    </div>
+      <main className="page-content">{renderRoutes(route.routes)}</main>
+    </>
   );
 };
