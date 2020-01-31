@@ -79,6 +79,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn test --verbose"
+    }
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
