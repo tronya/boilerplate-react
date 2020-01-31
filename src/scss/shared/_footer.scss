@@ -1,0 +1,21 @@
+.footer {
+  background-color: $bg-black;
+  height: 40px;
+  color: white;
+  line-height: 40px;
+
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  .env {
+    color: white;
+  }
+
+  .logo {
+    img {
+      height: 20px;
+    }
+  }
+}
