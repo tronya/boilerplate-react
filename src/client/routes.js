@@ -1,5 +1,5 @@
-import { AppRoot } from './appRoot';
 import React from 'react';
+import { AppRoot } from './appRoot';
 
 const routes = [
   {

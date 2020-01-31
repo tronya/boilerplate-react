@@ -4,3 +4,4 @@ src/scss/**
 node_modules/**
 src/__tests__/*
 coverage/*
+src/serviceWorker.js

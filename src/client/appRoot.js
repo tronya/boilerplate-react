@@ -4,12 +4,9 @@ import Header from './components/shared/header/header';
 
 require('../scss/index.css');
 
-
-export const AppRoot = ({ route }) => {
-  return (
-    <>
-      <Header/>
-      <main className="page-content">{renderRoutes(route.routes)}</main>
-    </>
-  );
-};
+export const AppRoot = ({ route }) => (
+  <>
+    <Header />
+    <main className="page-content">{renderRoutes(route.routes)}</main>
+  </>
+);
