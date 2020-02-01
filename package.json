@@ -82,8 +82,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn test --verbose"
+      "pre-commit": "lint-staged"
+//      "pre-push": "yarn test --verbose"
     }
   },
   "eslintConfig": {
