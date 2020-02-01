@@ -1,13 +1,13 @@
 .footer {
-  background-color: $bg-black;
-  height: 40px;
-  color: white;
-  line-height: 40px;
-
-  width: 100%;
-  position: absolute;
+  background-color: $black;
   bottom: 0;
+  color: $white;
+  height: 40px;
+
   left: 0;
+  line-height: 40px;
+  position: absolute;
+  width: 100%;
 
   .env {
     color: white;

@@ -6,8 +6,9 @@
   &__link {
     color: inherit;
     text-decoration: none;
+
     &:hover {
-      opacity: 0.5;
+      opacity: .5;
       text-decoration: none;
     }
   }
@@ -22,9 +23,9 @@
   }
 
   &__sub-menu {
-    background: #fff;
+    background: palette(white, base);
     border-radius: 4px;
-    box-shadow: 0 2px 10px rgba(22, 84, 152, 0.1);
+    box-shadow: 0 2px 10px rgba(22, 84, 152, .1);
     float: left;
     left: -999em;
     padding: 8px 0;
@@ -36,7 +37,7 @@
 
   &__subItem {
     a {
-      color: #14589C;
+      color: palette(blue, base);
       display: block;
       font-size: 13px;
       line-height: 16px;
@@ -44,7 +45,7 @@
       text-decoration: none;
 
       &:hover {
-        background: rgba(197, 215, 255, 0.5);
+        background: rgba(197, 215, 255, .5);
       }
 
       &:after {
@@ -71,7 +72,7 @@
   }
 
   &__title {
-    color: #165498;
+    color: palette(blue, menuText);
     font-size: 13px;
     font-weight: 400;
   }

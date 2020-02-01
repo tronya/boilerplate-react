@@ -10,23 +10,32 @@ $z-index-4: 40;
 $z-index-5: 50;
 $z-index-over: 200;
 
-$bg-black:#000;
 
+// color variables
+$white: #fff;
+$black: #000;
 
 // Usage: palette($palette, $tone: 'base');
 // Example: color: palette(white, off);
 $palettes: (
   white: (
-    base: #ffffff,
-    off: #edeeef,
-    popup: rgba(244, 246, 247, .95),
+    base: $white,
+    backGround: #F2F3F8,
   ),
   black: (
-    true: #000000,
+    true: $black,
   ),
   blue: (
-    base: #067180,
+    base: #14589C,
+    baseText:#444444,
+    menuText:#165498
   ),
+  grey:(
+    base:#BDBDBD
+  ),
+  red:(
+    badge:#EB5757,
+  )
 );
 
 

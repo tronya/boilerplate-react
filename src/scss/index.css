@@ -1,5 +1,4 @@
 @import url(~normalize.css/normalize.css);
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -61,7 +60,7 @@ img {
   height: auto; }
 
 .header {
-  background: #FFFFFF;
+  background: #fff;
   box-shadow: 0 2px 10px rgba(22, 84, 152, 0.1);
   height: 72px;
   width: 100%; }
@@ -75,7 +74,7 @@ img {
     float: left;
     width: 72px; }
   .header__logo {
-    background: url("./../assets/logo.svg") no-repeat center;
+    background: url(./../assets/logo.svg) no-repeat center;
     background-size: contain;
     height: 72px;
     width: 72px; }
@@ -86,71 +85,19 @@ img {
     padding-top: 1px;
     width: 24px; }
   .header__logout-icon {
-    background-image: url(./../assets/icons-logout.svg);
-    background-repeat: no-repeat;
+    background: url(./../assets/icons-logout.svg) no-repeat;
     background-size: contain;
     display: block;
     height: 18px;
     position: relative;
     width: 18px; }
 
-.header-notification {
-  cursor: pointer;
-  float: right;
-  margin-left: 25px;
-  width: 24px; }
-
-.header-notification__icon {
-  background-size: contain;
-  height: 24px;
-  position: relative;
-  width: 24px; }
-
-.header-notification__sign {
-  background: #EB5757;
-  border-radius: 50%;
-  bottom: 2px;
-  height: 8px;
-  left: 0;
-  position: absolute;
-  width: 8px; }
-
-.header-logout {
-  cursor: pointer;
-  float: right;
-  margin-left: 16px;
-  padding-top: 1px;
-  width: 24px; }
-
-.header-logout__icon {
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  height: 18px;
-  position: relative;
-  width: 18px; }
-
-.wrapper {
-  min-height: 100%;
-  position: relative; }
-
-.content {
-  padding-bottom: 50px;
-  padding-top: 20px; }
-
-.page-content {
-  min-width: 1024px;
-  background: #F2F3F8;
-  min-height: calc(100vh - 72px);
-  padding-top: 48px;
-  padding-bottom: 48px; }
-
 /*----------------------------------------------------
   1. General
 ----------------------------------------------------*/
 body {
-  font-family: 'Ubuntu', sans-serif;
   color: #444444;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 13px; }
 
 h1 {
@@ -182,9 +129,8 @@ h6 {
   font-size: 12px; }
 
 p {
-  font-family: 'Ubuntu', sans-serif;
   color: #444444;
-  line-height: auto;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px; }
 
 a {
@@ -198,35 +144,22 @@ a:visited {
   color: #14589C; }
 
 .page__container {
-  width: 100%;
   max-width: 100%;
   padding: 0 40px;
-  position: relative; }
+  position: relative;
+  width: 100%; }
 
 .delimiter {
-  -ms-flex: 1;
   flex: 1; }
 
 .clearfix:before,
 .clearfix:after {
   clear: both;
+  content: "";
   display: table;
-  line-height: 0;
-  content: ""; }
+  line-height: 0; }
 
 input::placeholder {
-  color: #BDBDBD; }
-
-input::-webkit-input-placeholder {
-  color: #BDBDBD; }
-
-input::-moz-placeholder {
-  color: #BDBDBD; }
-
-input:-ms-input-placeholder {
-  color: #BDBDBD; }
-
-input:-moz-placeholder {
   color: #BDBDBD; }
 
 input:focus {
@@ -235,15 +168,30 @@ input:focus {
 button:focus {
   outline: none; }
 
+.wrapper {
+  min-height: 100%;
+  position: relative; }
+
+.content {
+  padding-bottom: 50px;
+  padding-top: 20px; }
+
+.page-content {
+  background: #F2F3F8;
+  min-height: calc(100vh - 72px);
+  min-width: 1024px;
+  padding-bottom: 48px;
+  padding-top: 48px; }
+
 .footer {
   background-color: #000;
-  height: 40px;
-  color: white;
-  line-height: 40px;
-  width: 100%;
-  position: absolute;
   bottom: 0;
-  left: 0; }
+  color: #fff;
+  height: 40px;
+  left: 0;
+  line-height: 40px;
+  position: absolute;
+  width: 100%; }
   .footer .env {
     color: white; }
   .footer .logo img {
@@ -257,7 +205,7 @@ button:focus {
     color: inherit;
     text-decoration: none; }
     .menu__link:hover {
-      opacity: 0.5;
+      opacity: .5;
       text-decoration: none; }
   .menu__item {
     display: inline-block;
@@ -336,15 +284,15 @@ button:focus {
   content: url(./../assets/icon-quotes.svg); }
 
 .badge {
-  height: 22px;
-  width: 22px;
   background: #EB5757;
   border-radius: 50%;
-  font-weight: 500;
-  line-height: 21px;
-  font-size: 12px;
-  color: #FFFFFF;
+  color: #fff;
   display: inline-block;
-  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  height: 22px;
+  line-height: 21px;
+  min-width: 22px;
   padding: 0;
-  min-width: 22px; }
+  text-align: center;
+  width: 22px; }

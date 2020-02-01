@@ -1,30 +1,9 @@
-.wrapper {
-  min-height: 100%;
-  position: relative;
-}
-
-.content {
-  padding-bottom: 50px;
-  padding-top: 20px;
-}
-
-.page-content {
-  min-width: 1024px;
-  background: #F2F3F8;
-  min-height: calc(100vh - 72px);
-  padding-top: 48px;
-  padding-bottom: 48px;
-
-}
-
 /*----------------------------------------------------
   1. General
 ----------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700");
-
 body {
+  color: palette(blue, baseText);
   font-family: 'Ubuntu', sans-serif;
-  color: #444444;
   font-size: 13px;
 }
 
@@ -63,14 +42,13 @@ h6 {
 }
 
 p {
+  color: palette(blue, baseText);
   font-family: 'Ubuntu', sans-serif;
-  color: #444444;
-  line-height: auto;
   font-size: 16px;
 }
 
 a {
-  color: #14589C;
+  color: palette(blue, base);
 }
 
 a:hover {
@@ -79,47 +57,30 @@ a:hover {
 
 a:focus,
 a:visited {
-  color: #14589C;
+  color: palette(blue, base);
 }
 
 .page__container {
-  width: 100%;
   max-width: 100%;
   padding: 0 40px;
   position: relative;
+  width: 100%;
 }
 
 .delimiter {
-  -ms-flex: 1;
   flex: 1;
 }
 
 .clearfix:before,
 .clearfix:after {
   clear: both;
+  content: "";
   display: table;
   line-height: 0;
-  content: "";
 }
 
 input::placeholder {
-  color: #BDBDBD;
-}
-
-input::-webkit-input-placeholder {
-  color: #BDBDBD;
-}
-
-input::-moz-placeholder {
-  color: #BDBDBD;
-}
-
-input:-ms-input-placeholder {
-  color: #BDBDBD;
-}
-
-input:-moz-placeholder {
-  color: #BDBDBD;
+  color: palette(grey,base);
 }
 
 input:focus {
@@ -128,4 +89,24 @@ input:focus {
 
 button:focus {
   outline: none;
+}
+
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.content {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.page-content {
+  background: palette(white,backGround);
+  min-height: calc(100vh - 72px);
+  min-width: 1024px;
+  padding-bottom: 48px;
+  padding-top: 48px;
+
 }

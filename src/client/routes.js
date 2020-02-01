@@ -8,7 +8,15 @@ const routes = [
       {
         path: '/',
         exact: true,
-        component: () => <div>Hello</div>,
+        component: () => <div className="page__container">Hello</div>,
+      },
+      {
+        path: '/admin/project_tasks',
+        component: () => <div className="page__container">Project Tasks</div>,
+      },
+      {
+        path: '/admin/tasks/invoices',
+        component: () => <div>and i am invoises</div>,
       },
     ],
   },
