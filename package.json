@@ -77,7 +77,8 @@
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --no-watchman",
+    "test:watch": "jest --watch",
     "eject": "react-scripts eject"
   },
   "husky": {

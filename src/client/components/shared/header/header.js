@@ -6,9 +6,9 @@ const Header = () => (
   <header className="header">
     <div className="header__container clearfix">
       <div className="header__logo-wrapper">
-        <a href="/">
+        <Link to={'/'}>
           <div className="header__logo" />
-        </a>
+        </Link>
       </div>
       <div className="delimiter" />
       <Menu />

@@ -1,5 +1,7 @@
 import React from 'react';
 import { AppRoot } from './appRoot';
+import Home from './pages/home';
+import Projects from './pages/projects';
 
 const routes = [
   {
@@ -8,15 +10,15 @@ const routes = [
       {
         path: '/',
         exact: true,
-        component: () => <div className="page__container">Hello</div>,
+        component: () => <Home someParams={{ userSomething: 'some parameters' }} />,
       },
       {
         path: '/admin/project_tasks',
-        component: () => <div className="page__container">Project Tasks</div>,
+        component: Projects,
       },
       {
         path: '/admin/tasks/invoices',
-        component: () => <div>and i am invoises</div>,
+        component: () => <div>and i am Invoices</div>,
       },
     ],
   },
