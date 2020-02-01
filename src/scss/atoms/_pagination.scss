@@ -1,0 +1,41 @@
+.pagination {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 16px 0 0 0;
+
+  &__item {
+    align-items: center;
+    display: inline-flex;
+    height: 32px;
+    justify-content: center;
+    margin: 0 4px;
+    width: 32px;
+
+    button {
+      background: none;
+      border: 0;
+      color: palette(blue, base);
+    }
+
+    &--active {
+      background: palette(blue, base);
+      border-radius: 16px;
+      height: 32px;
+      width: 32px;
+
+      button {
+        color: palette(white, base);
+      }
+    }
+  }
+
+  &__amount {
+    color: palette(blue, pagination);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

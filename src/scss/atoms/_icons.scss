@@ -25,3 +25,39 @@
 .mi-quotes::before {
   content: url(./../assets/icon-quotes.svg);
 }
+
+
+.edit-project__icon:before {
+  content: url(./../assets/icon-edit.svg);
+}
+
+.delete-project__icon:before {
+  content: url(./../assets/icon-delete.svg);
+}
+
+.add-project__icon {
+  display: block;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.add-1 {
+  background-color: palette(blue, base);
+  display: block;
+  height: 16px;
+  left: 7px;
+  position: absolute;
+  top: 1px;
+  width: 2px;
+}
+
+.add-2 {
+  background-color: palette(blue, base);
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 16px;
+}

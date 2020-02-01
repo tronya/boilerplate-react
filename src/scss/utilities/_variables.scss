@@ -21,6 +21,7 @@ $palettes: (
   white: (
     base: $white,
     backGround: #F2F3F8,
+    tableCell: #C4C5D6,
   ),
   black: (
     true: $black,
@@ -28,13 +29,17 @@ $palettes: (
   blue: (
     base: #14589C,
     baseText:#444444,
-    menuText:#165498
+    menuText:#165498,
+    pagination:#8BAACC
   ),
   grey:(
     base:#BDBDBD
   ),
   red:(
     badge:#EB5757,
+  ),
+  green:(
+    active:#27AE60,
   )
 );
 

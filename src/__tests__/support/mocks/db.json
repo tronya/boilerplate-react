@@ -1,0 +1,651 @@
+[
+  {
+    "project_task": {
+      "id": 74,
+      "number": 560,
+      "name": "Alberta Ballet Extra",
+      "address": "",
+      "type_pt": "Reno",
+      "description": "Other",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 75,
+      "number": 53,
+      "name": "Astra Real Estate",
+      "address": "1122 - 40 Ave NE, Calgary ",
+      "type_pt": "Various",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 76,
+      "number": 553,
+      "name": "Avenue Living Flooring 2020",
+      "address": "Various ",
+      "type_pt": "Flooring Supply",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 42,
+      "number": 533,
+      "name": "Alberta Ballet TI",
+      "address": "141 18 AVE SW",
+      "type_pt": "Renovations ",
+      "description": "Renovation on the administration floor of Alberta Ballet Building.",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 90,
+      "number": 557,
+      "name": "Neal Shannon ",
+      "address": "1027 Lake Wapta Way SE",
+      "type_pt": "Renovations",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 43,
+      "number": 536,
+      "name": "Leroux Mansion Remediation",
+      "address": "321 - 4th AVE, Fernie, BC",
+      "type_pt": "HAZ MAT",
+      "description": "Remediation of a Heritage Building. ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 45,
+      "number": 532,
+      "name": "Avenue Living ( Calgary ) ",
+      "address": "Calgary, Alberta",
+      "type_pt": "Interior Upgrades",
+      "description": "First 5 units in Calgary ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 46,
+      "number": 531,
+      "name": "Art of Flooring ",
+      "address": "1122 40 AVE NE",
+      "type_pt": "Flooring Supply",
+      "description": "Various Jobs for Flooring Supply ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 47,
+      "number": 530,
+      "name": "Aspen Properties ( 2019 )",
+      "address": "Calgary, Alberta",
+      "type_pt": "Various ",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 28,
+      "number": 525,
+      "name": "Source Office Furniture ",
+      "address": "1248 36 AVE NE",
+      "type_pt": "Exterior Renovation ",
+      "description": "General Exterior Renovation ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 48,
+      "number": 526,
+      "name": "Sulvaris Ti",
+      "address": "205, 6223 2nd Street SE",
+      "type_pt": "Renovation",
+      "description": "Office Renovations ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 49,
+      "number": 522,
+      "name": "Edmonton Public Library",
+      "address": "Edmonton, Alberta ",
+      "type_pt": "Flooring ",
+      "description": "Flooring Supply and Install ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 91,
+      "number": 567,
+      "name": "AL Calgary November",
+      "address": "",
+      "type_pt": "Renovations ",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 44,
+      "number": 534,
+      "name": "Avenue Living Berkley (Lethbridge) ",
+      "address": "Lethbridge, Alberta",
+      "type_pt": "Renovations ",
+      "description": "Interior Upgrades to Westskiwin Portfolio ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 52,
+      "number": 537,
+      "name": "Avenue Living (Med Hat & Brooks)",
+      "address": "Med Hat (& Brooks)",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 53,
+      "number": 538,
+      "name": "Avenue Living (Wetaskiwin)",
+      "address": "Wetaskiwin ",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 56,
+      "number": 541,
+      "name": "Avenue Living (Red Deer)",
+      "address": "Red Deer",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 57,
+      "number": 542,
+      "name": "CHC (August 2019)",
+      "address": "Calgary",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 59,
+      "number": 518,
+      "name": "CHC (Insurance Work)",
+      "address": "4537 Montgomery Ave NW",
+      "type_pt": "Restoration",
+      "description": "After Flood Restoration ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 60,
+      "number": 503,
+      "name": "532 Cedar Crescent SW",
+      "address": "532 Cedar Crescent SW Calgary",
+      "type_pt": "Renovations",
+      "description": "Various work",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 61,
+      "number": 515,
+      "name": "Govan Brown (Calgary)",
+      "address": "Calgary",
+      "type_pt": "Restoration & Asbestos Abatement",
+      "description": "Miscellaneous ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 55,
+      "number": 540,
+      "name": "Avenue Living (Wetaskiwin ) HD",
+      "address": "Wetaskiwin ",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 54,
+      "number": 539,
+      "name": "Avenue Living ( Camrose ) HD",
+      "address": "Camrose",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 63,
+      "number": 543,
+      "name": "David Smith",
+      "address": "1028 13 AVE",
+      "type_pt": "Reno",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 66,
+      "number": 546,
+      "name": "AL Calgary - September ",
+      "address": "Calgary, Alberta",
+      "type_pt": "Renovations ",
+      "description": "Various",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 67,
+      "number": 547,
+      "name": "AL - Red Deer September ",
+      "address": "Red Deer",
+      "type_pt": "Renovations",
+      "description": "Various",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 69,
+      "number": 548,
+      "name": "CHC September 2019  ",
+      "address": "",
+      "type_pt": "Renovations ",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 70,
+      "number": 521,
+      "name": "York Restorations 2019",
+      "address": "75 Sweetwater Place",
+      "type_pt": "Restoration",
+      "description": "Miscellaneous ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 72,
+      "number": 549,
+      "name": "Med Hat Sept HD ( Floor & Paint )",
+      "address": "Medicine Hat",
+      "type_pt": "Renovations",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 99,
+      "number": 434,
+      "name": "VCAD",
+      "address": "1035 7th AVE SW",
+      "type_pt": "Renovations ",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 73,
+      "number": 554,
+      "name": "Office Renovations",
+      "address": "300 Manning RD NE, T2E 8K4",
+      "type_pt": "Renovations ",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 77,
+      "number": 504,
+      "name": "1122 40 AVE NE",
+      "address": "Calgary",
+      "type_pt": "Astra Office",
+      "description": "Astra Office",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 92,
+      "number": 572,
+      "name": "Miscellaneous Jobs 2020",
+      "address": "Various ",
+      "type_pt": "Various",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 78,
+      "number": 565,
+      "name": "Avenue Living Calgary  (October)",
+      "address": "Calgary",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 65,
+      "number": 545,
+      "name": "AL Medicine Hat & Brooks September ",
+      "address": "Medicine Hat, Alberta",
+      "type_pt": "Various Units",
+      "description": "Various Units",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 64,
+      "number": 544,
+      "name": "AL Lethbridge September",
+      "address": "Lethbridge, Alberta",
+      "type_pt": "Renovations ",
+      "description": "Renovations",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 79,
+      "number": 563,
+      "name": "AL Medicine Hat (October)",
+      "address": "Medicine Hat",
+      "type_pt": "Renovations",
+      "description": "Various work",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 80,
+      "number": 564,
+      "name": "Avenue Living Leathbridge  OCt",
+      "address": "Leathbridge",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 81,
+      "number": 559,
+      "name": "CDI Brittania",
+      "address": "Suite 200 703 6 Ave SW",
+      "type_pt": "Various",
+      "description": "Various work",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 82,
+      "number": 520,
+      "name": "1535 26 Ave SW",
+      "address": "1535 26 Ave SW",
+      "type_pt": "Renovations",
+      "description": "Various work",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 83,
+      "number": 568,
+      "name": "AL - RED DEER - OCTOBER",
+      "address": "AL - RED DEER - OCTOBER",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 84,
+      "number": 562,
+      "name": "Weeds and Garbage ",
+      "address": "City of Calgary ",
+      "type_pt": "Various",
+      "description": "Various work",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 85,
+      "number": 570,
+      "name": "1819 14 St SW",
+      "address": "1819 14 St SW",
+      "type_pt": "Renovations",
+      "description": "Various work",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 86,
+      "number": 569,
+      "name": "Restorations 2020",
+      "address": "Calgary",
+      "type_pt": "Restoration",
+      "description": "Various work",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 88,
+      "number": 556,
+      "name": "Smith Residence ",
+      "address": "927-38 Ave SW",
+      "type_pt": "Renovations",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 89,
+      "number": 561,
+      "name": "Edmonton Public Libraries 2020",
+      "address": "Edmonton, AB",
+      "type_pt": "Renovations",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 93,
+      "number": 576,
+      "name": "Avenue Living (Red Deer) December",
+      "address": "Red Deer",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 94,
+      "number": 574,
+      "name": "Avenue Living (Leathbridge) December",
+      "address": "Leathbridge",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 95,
+      "number": 575,
+      "name": "Avenue Living (Medicine Hat) December",
+      "address": "Medicine Hat, AB",
+      "type_pt": "Renovations",
+      "description": "Various work ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 100,
+      "number": 552,
+      "name": "1535 - Operating",
+      "address": "1535 26 AVE SW",
+      "type_pt": "Operations ",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 98,
+      "number": 573,
+      "name": "December Calgary - AL ",
+      "address": "Calgary",
+      "type_pt": "Reno",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 101,
+      "number": 581,
+      "name": "CHC November",
+      "address": "Calgary AB ",
+      "type_pt": "Renovations ",
+      "description": "Various work ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 102,
+      "number": 577,
+      "name": "JMP Solutions",
+      "address": "104, 4242 – 7 Street SE ",
+      "type_pt": "Office Renovation",
+      "description": "Various work ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 87,
+      "number": 2,
+      "name": "TEST4",
+      "address": "Calgary",
+      "type_pt": "test",
+      "description": "",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 106,
+      "number": 1,
+      "name": "TEST1",
+      "address": "111 test",
+      "type_pt": "test",
+      "description": "test",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 107,
+      "number": 582,
+      "name": "February - Calgary - Avenue",
+      "address": "Calgary",
+      "type_pt": "Renovations",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 103,
+      "number": 583,
+      "name": "February - Medicine Hat & Brooks - Avenue ",
+      "address": "Medicine Hat & Brooks, AB ",
+      "type_pt": "Renovations ",
+      "description": "Various work ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 108,
+      "number": 584,
+      "name": "1819 17 ST ( Capital ) ",
+      "address": "1819 17 ST SW",
+      "type_pt": "Renovations ",
+      "description": "Various ",
+      "active": true
+    }
+  },
+  {
+    "project_task": {
+      "id": 109,
+      "number": 585,
+      "name": "1535 26 AVE Unit 301 ",
+      "address": "1535 26 AVE Unit 301 ",
+      "type_pt": "Renovations ",
+      "description": "",
+      "active": true
+    }
+  }
+]

@@ -1,0 +1,103 @@
+.table {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: -8px;
+  width: 100%;
+
+  &__icon {
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    opacity: .6;
+    padding-right: 24px;
+  }
+
+  &__row {
+    box-shadow: 0 2px 10px rgba(22, 84, 152, .1);
+
+    &--bold {
+      color: palette(blue, baseText);
+      font-weight: 600;
+    }
+  }
+
+  &__header {
+    color: palette(white, tableCell);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 16px 8px 8px 8px;
+
+    &--boldText {
+      color: palette(blue, baseText);
+      font-weight: 600;
+    }
+  }
+
+  &__cell {
+    background-color: palette(white, base);
+    border: solid 1px palette(white, base);
+    padding: 22px 8px 21px 8px;
+    vertical-align: middle;
+
+    &--bold {
+      color: palette(blue, baseText);
+      font-weight: 600;
+    }
+
+    &:first-child {
+      border-bottom-left-radius: 4px;
+      border-left-style: solid;
+      border-top-left-radius: 4px;
+    }
+
+    &:last-child {
+      border-bottom-right-radius: 4px;
+      border-right-style: solid;
+      border-top-right-radius: 4px;
+    }
+  }
+
+  &__status {
+    padding-left: 8px;
+    position: relative;
+
+    &--active {
+      color: palette(green, active);
+
+      &:before {
+        background-color: palette(green, active);
+      }
+    }
+
+    &--inactive {
+      color: palette(red, badge);
+
+      &:before {
+        background-color: palette(red, badge);
+      }
+    }
+
+    &--closed {
+      color: palette(white, tableCell);
+
+      &:before {
+        background-color: palette(white, tableCell);
+      }
+    }
+
+    &:before {
+      border-radius: 50%;
+      content: "";
+      height: 4px;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 4px;
+    }
+  }
+}
