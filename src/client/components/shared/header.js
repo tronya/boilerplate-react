@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Menu from '../../atoms/menu';
+import Menu from '../atoms/menu';
 
 const Header = () => (
   <header className="header">
