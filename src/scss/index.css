@@ -355,6 +355,27 @@ button:focus {
     .table__header--boldText {
       color: #444444;
       font-weight: 600; }
+  .table__sort-icon {
+    height: 10px;
+    margin-left: 4px;
+    position: relative;
+    width: 8px; }
+    .table__sort-icon:before {
+      content: url(./../assets/icon-sort-top.svg);
+      left: 0;
+      opacity: .2;
+      position: absolute;
+      top: -6px; }
+    .table__sort-icon:after {
+      content: url(./../assets/icon-sort-bottom.svg);
+      left: 0;
+      opacity: .2;
+      position: absolute;
+      top: 0; }
+    .table__sort-icon--bot:after {
+      opacity: 1; }
+    .table__sort-icon--top:before {
+      opacity: 1; }
   .table__cell {
     background-color: #fff;
     border: solid 1px #fff;

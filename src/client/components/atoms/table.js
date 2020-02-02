@@ -44,7 +44,12 @@ const Table = ({ columns, data }) => {
                   })}
                 >
                   {column.render('Header')}
-                  <span>{column.isSorted && column.isSortedDesc ? ' 🔽' : ' 🔼'}</span>
+                  <span
+                    className={classNames('table__sort-icon', {
+                      'table__sort-icon--top': column.isSorted && column.isSortedDesc,
+                      'table__sort-icon--bot': column.isSorted && !column.isSortedDesc,
+                    })}
+                  />
                 </th>
               ))}
             </tr>
